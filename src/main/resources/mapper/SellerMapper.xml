@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="evan.khym.datamarket.repository.SellerRepo">
 
-    <select id="findById" resultType="evan.khym.datamarket.model.DB.SellerDTO">
-        SELECT * FROM seller WHERE ID = #{id}
+    <select id="findById" resultType="SellerDTO">
+        SELECT * FROM seller WHERE id = #{id}
     </select>
-    <select id="findByName" resultType="evan.khym.datamarket.model.DB.SellerDTO">
+    <select id="findByName" resultType="SellerDTO">
         SELECT * FROM seller WHERE NAME = #{username}
     </select>
 

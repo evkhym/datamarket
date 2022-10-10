@@ -6,6 +6,7 @@ import evan.khym.datamarket.service.SellerAuthService;
 import evan.khym.datamarket.service.SellerService;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -22,10 +23,10 @@ public class SellerController {
     }
 
 
-    @GetMapping("/info")
-    public SellerDTO getMyInfo(@AuthenticationPrincipal UserDetails userDetails) {
+    @GetMapping("/info/{id}")
+    public SellerDTO getMyInfo(@PathVariable String id) {
         System.out.println("sellerInfo");
-        return sellerService.getUserById(1);
+        return sellerService.getUserByName(id);
     }
 
     @PostMapping("/signup")
