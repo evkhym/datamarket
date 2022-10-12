@@ -6,6 +6,6 @@
 
 
     <select id="findById" resultType="evan.khym.datamarket.model.DB.BuyerDTO">
-        SELECT * FROM buyer WHERE IDX = #{id}
+        SELECT * FROM buyer WHERE id = #{id}
     </select>
 </mapper>
