@@ -1,0 +1,94 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 15%;
+    padding: 1rem;
+    color: white;
+    background: rgb(0, 59, 104);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav span {
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background: rgb(0, 0, 0);
+    height: 102%;
+    width: 100%;
+    padding: 2rem;
+}
+
+div {
+    background: rgb(249, 247, 247);
+    height: 50%;
+    width: 50%;
+}
+
+section#j{
+    background-color: white;
+    color: black;
+    width: 350px;
+    height: 80px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+section#m{
+    background-color: white;
+    color: black; 
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    font-size: 22px;
+    margin-left: 100px;
+}
+section#v{
+    background-color: white;
+    color: black;  
+    margin-bottom: 20px;   
+    width: 500px;
+    height: 50px;
+    font-size: 22px;
+    margin-left: 600px;
+}
+section#a{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    font-size: 22px;
+    margin-left: 100px;
+}
+form#alo{
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 50px;
+    margin-left: 600px;
+}
+button#givens{
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 600px;
+    margin-top: 10px;
+}

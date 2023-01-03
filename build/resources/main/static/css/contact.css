@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 15%;
+    padding: 1rem;
+    color: white;
+    background: rgb(0, 59, 104);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav span {
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background: rgb(0, 0, 0);
+    height: 102%;
+    width: 100%;
+    padding: 2rem;
+}
+
+div {
+    background: rgb(249, 247, 247);
+    height: 50%;
+    width: 50%;
+}
+
+section#container{
+    font-size: 50px;
+    width: 350px;
+    height: 100px;
+}
+
+section#cont{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    background-color: white;
+    width: 1150px;
+    height: 460px;
+}
+
+button#alo{
+    width: 150px;
+    height: 50px;
+}
+
+br#mcnvj{
+    margin-top: 20px;
+}

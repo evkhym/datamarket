@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 15%;
+    padding: 1rem;
+    color: white;
+    background: rgb(0, 59, 104);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav span {
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background: rgb(0, 0, 0);
+    height: 102%;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+article {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+article a {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}

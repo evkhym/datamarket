@@ -1,0 +1,72 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 15%;
+    padding: 1rem;
+    color: white;
+    background: rgb(0, 59, 104);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav span {
+    padding: 0.5rem;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background: rgb(0, 0, 0);
+    height: 102%;
+    width: 100%;
+    padding: 2rem;
+}
+
+div {
+    background: rgb(249, 247, 247);
+    height: 50%;
+    width: 50%;
+}
+
+section#boardusa{
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 85px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 38px;
+}
+section#boardcontent{
+    background-color: white;
+    color: black;
+    width: 1000px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 32px;
+}
+button#menu{
+    width: 100px;
+    height: 100px;
+    margin-top: 495px;
+    margin-left: 40px;
+}
+button#upload{
+    width: 100px;
+    height: 100px;
+    margin-left: 900px;
+    margin-bottom: 75px;
+}
