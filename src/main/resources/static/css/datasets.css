@@ -42,16 +42,16 @@ div {
 }
 
 tr{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     align-items: center;
     width: 2600px;
     height: 80px;
     font-size: 32px;
 }
 tr#trrr{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     align-items: center;
     width: 1000px;
     height: 50px;
