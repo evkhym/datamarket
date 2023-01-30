@@ -26,20 +26,28 @@ a {
     color: white;
 }
 
+
+main {
+    background: rgb(0, 0, 0);
+    height: 80%;
+    width: 100%;
+    padding: 2rem;
+}
+
 section#contain{
     margin-bottom: 20px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-left: 170px;
     font-size: 50px;
     width: 130px;
     align-items: center;
     margin-top: 60px;
-    height: 60px;
+    height: 70px;
 }
 section#degrom{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 38px;
     width: 600px;
     height: 300px;

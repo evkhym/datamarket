@@ -24,12 +24,12 @@ header nav span {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 main {
     background: rgb(0, 0, 0);
-    height: 102%;
+    height: 107%;
     width: 100%;
     padding: 2rem;
 }

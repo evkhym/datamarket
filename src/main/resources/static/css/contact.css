@@ -29,7 +29,7 @@ a {
 
 main {
     background: rgb(0, 0, 0);
-    height: 102%;
+    height: 107%;
     width: 100%;
     padding: 2rem;
 }
@@ -42,8 +42,8 @@ div {
 
 section#container{
     font-size: 50px;
-    width: 350px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
 }
 
 section#cont{
@@ -52,7 +52,7 @@ section#cont{
     font-size: 40px;
     background-color: white;
     width: 1150px;
-    height: 460px;
+    height: 500px;
 }
 
 button#alo{

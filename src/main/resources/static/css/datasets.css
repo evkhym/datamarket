@@ -29,16 +29,22 @@ a {
 
 main {
     background: rgb(243, 237, 237);
-    height: 102%;
+    height: 107%;
     width: 100%;
-    padding: 2rem;
+    padding-top: 2rem;
     font-size: 20px;
+    text-align: center;
 }
 
 div {
     background: rgb(249, 247, 247);
     height: 50%;
     width: 50%;
+}
+
+table#alohaa {
+    display: inline-block;
+    text-align: center;
 }
 
 tr{
