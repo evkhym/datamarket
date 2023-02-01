@@ -48,6 +48,7 @@ section#boardusa{
     margin-left: 60px;
     margin-top: 20px;
     font-size: 38px;
+    display: inline;
 }
 section#boardcontent{
     background-color: white;
@@ -61,12 +62,12 @@ section#boardcontent{
 button#menu{
     width: 100px;
     height: 100px;
-    margin-top: 495px;
+    /*margin-top: 495px;*/
     margin-left: 40px;
 }
 button#upload{
     width: 100px;
     height: 100px;
     margin-left: 900px;
-    margin-bottom: 75px;
+    /*margin-bottom: 75px;*/
 }
